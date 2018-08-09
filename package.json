@@ -1,0 +1,30 @@
+{
+  "name": "safewalk-backend",
+  "version": "1.0.0",
+  "description": "Backend implementation for Safewalk",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel-node src/app/app.js",
+    "deploy": "echo Um script para realizar o deploy deve ser criado.",
+    "test": "echo Testes devem ser criados"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SafewalkTeam/safewalk-backend.git"
+  },
+  "author": "Safewalk Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SafewalkTeam/safewalk-backend/issues"
+  },
+  "homepage": "https://github.com/SafewalkTeam/safewalk-backend#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "passport": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
